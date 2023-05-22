@@ -13,9 +13,9 @@ let package = Package(
             targets: ["GraphQLKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/GraphQLSwift/Graphiti.git", from: "1.0.0"),
-        .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0"),
-        .package(url: "https://github.com/vapor/fluent.git", from: "4.2.0"),
+        .package(url: "https://github.com/GraphQLSwift/Graphiti.git", from: "1.10.0"),
+        .package(url: "https://github.com/vapor/vapor.git", from: "4.76.0"),
+        .package(url: "https://github.com/vapor/fluent.git", from: "4.8.0"),
     ],
     targets: [
         .target(name: "GraphQLKit",
